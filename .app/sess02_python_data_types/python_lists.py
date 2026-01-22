@@ -8,7 +8,7 @@ A sample list and some of its operations are given below.
 """
 
 # Create a list of fruits
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry "]
 
 # Display the fruits in fruit list
 print(f"The original/initial fruits in the fruit list are: {fruits}")
