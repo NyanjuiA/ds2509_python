@@ -9,7 +9,7 @@ import json  # Allows our script to write and read JSON format
 # Function to write car details
 def save_car_data(file_path: Path, car_list: list):
    """
-   Saves a list of cars dictionaries to a JSON file.
+   Saves a list of car dictionaries to a JSON file.
 
    :param file_path: Path to the JSON file.
    :param car_list: List of dictionaries containing car data/details.

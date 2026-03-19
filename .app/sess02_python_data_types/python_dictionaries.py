@@ -45,7 +45,7 @@ major = student.setdefault('major','Not specified')
 print(f"The value of 'major' in the 'student' dictionary is: {major}")
 
 # Create and display a new dictionary from the keys  of an existing dictionary
-new_student = dict.fromkeys(student.keys(),"") # new_student = dict.fromkeys(["name","age","grade"])
+new_student = dict.fromkeys(student.keys(),"") # new_student = dict.fromkeys(["name","age","grade","phone","major"])
 print(f'The key-value pairs in the "new_student" dictionary are:\n{new_student}')
 
 # Delete a specific key-value pair from the "student" dictionary
@@ -55,8 +55,8 @@ print(f'After deleting/removing the "grade" key from the "student" dictionary, '
       f'the remaining key-value pairs are:\n{student}')
 
 # Find out and display whether a given key exists/is present in a dictionary
-print(f'The key "age" is present in the "student" dictionary: {"age" in "student"}.')
-print(f'The key "grade" is present in the "student" dictionary: {"grade" in "student"}.')
+print(f'The key "age" is present in the "student" dictionary: {"age" in student}.')
+print(f'The key "grade" is present in the "student" dictionary: {"grade" in student}.')
 
 # Remove all contents from the student dictionary
 student.clear()

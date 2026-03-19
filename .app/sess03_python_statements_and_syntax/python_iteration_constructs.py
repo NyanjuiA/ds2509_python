@@ -15,15 +15,15 @@ numbers = (8,2,5,7,40,12,1,22,39,100)
 for number in numbers:
    print(f"The current number is: {number}")
 
-# 2. Range
+# 2. range
 print(f"range".center(50,"-"))
 
 # Basic range: generate the first 5 numbers
-for n in range(5): # Note: basice range starts from 0 to the specified number minus 1 (-1)
+for n in range(5): # Note: basic range starts from 0 to the specified number minus 1 (-1)
    print(f"The current number is: {n}")
 
 print(f"range with parameters".center(50,"-"))
-# Generate even numbers starting fro 2 to 10(exclusive) using range() with start, stop and step values
+# Generate even numbers starting from 2 to 10(exclusive) using range() with start, stop and step values
 for n in range(2,10,2):
    print(f"The current even number is: {n}")
 

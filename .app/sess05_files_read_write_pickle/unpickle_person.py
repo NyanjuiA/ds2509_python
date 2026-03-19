@@ -6,7 +6,7 @@ import pickle,os
 # Variable to hold the path to the 'person.txt' file
 file_path = os.path.abspath(os.path.join(os.getcwd(),"..","files","person.txt"))
 
-# list that will hld the 'Person' objects from the 'person.txt' file
+# list that will hold the 'Person' objects from the 'person.txt' file
 persons = []
 
 # Open the 'person.txt' file and read its contents

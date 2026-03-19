@@ -9,7 +9,7 @@ from person import Person
 # Prompt/ask the user for their name, age, and gender
 name = input("Please enter your name:\n")
 age = input("Please enter your age:\n")
-gender = input("Please enter your binary using 'm' for male & 'f' for 'female':\n")
+gender = input("Please enter your binary gender using 'm' for male & 'f' for 'female':\n")
 
 # Create/instantiate a Person object
 user = Person(name, age, gender)
