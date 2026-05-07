@@ -10,12 +10,12 @@ class Person:
 
 # Create an instance of the Person class
 p1 = Person("Abigail", age=25)
-p1 = 2
+# p1 = 2
 
 if isinstance(p1, Person):
    print(f"{p1.name} is an instance of the 'Person' class and is '{p1.age}' years old.")
 else:
    print(f"The 'p1' variable is an instance of '{type(p1)}'")
 
-# Use the dir() method to list the attributes and methdds of the 'p1' object
+# Use the dir() method to list the attributes and methods of the 'p1' object
 print(f"Attributes and methods of the 'p1' object are:\n{dir(p1)}")
